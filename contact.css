@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+  }
+  
+  
+  
+  
+  body {
+      font-size: 28px;
+    }
+  .heading{
+        color: #4CAF50;
+        font-size: 64px;
+        text-shadow: 2px 2px 2px rgb(94, 105, 94);
+        margin: 0%;
+        
+    }
+  
+    .logo{width: 112px;
+         height: 96px;
+      
+    }
+    .header{background-color: rgb(12, 86, 170);
+      height: 112px;
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+      
+  
+    }
+  
+    
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      
+    }
+    
+    li {
+      float:left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: #4CAF50;
+    }
+    .cover{
+      background-image: url('co2.jpeg');
+      background-size: cover;
+      height:40%;
+      background-repeat: no-repeat;
+      width:100%;
+      z-index: index -1;;
+      margin: 0%;
+      
+    }
+     .cname{
+      color:#42e71d;
+      text-align: center;
+      vertical-align: auto;
+    }
+    .ad{
+      padding:2em;
+    }
+    .bar{
+        background-color: #4CAF50;
+        height: 4em;
+        width: 100%;
+    }
+  
+    
+   
+
+
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  
+  
+  }
+
+  th{
+    text-decoration: underline;
+  }
+  
+  tr:hover {background-color: rgb(166, 230, 210);}
+
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition:0.3s;
+  
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: rgb(134, 245, 115);
+  }
+  
+  .pagination a:hover:not(.active)
+             {background-color: rgb(159, 215, 141);}
+
+
+  .logo1{
+              width: 56px;
+              height:48px;}
+         
+       
+ .icon{ 
+         width: 32px;
+         height: 32px;
+       
+       }
+       
+       
+       
+.col-container {
+         display: table;
+         width: 100%;
+         box-sizing: border-box;
+         margin-top: 2em;
+
+       }
+ .col {
+         display: table-cell;
+         padding: 14px;
+         background-color: #111;
+         color: rgb(255, 255, 255);
+         font-size: 13px;
+       }
+       
+       @media only screen and (max-width: 600px) {
+         .col { 
+           display: block;
+           width: 100%;
+         }}
+
+
+
+         input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+          input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #45a049;
+          }
+          
+          .contain{
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
